@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Consulta Trabajo Social">
+  <rect width="64" height="64" rx="14" fill="#0b5270"/>
+  <path d="M18 19h28a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H31l-9 7v-7h-4a4 4 0 0 1-4-4V23a4 4 0 0 1 4-4Z" fill="#ffffff"/>
+  <path d="M23 28h18M23 36h12" stroke="#1f9a7a" stroke-width="4" stroke-linecap="round"/>
+</svg>
