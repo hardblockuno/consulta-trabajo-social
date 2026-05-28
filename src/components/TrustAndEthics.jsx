@@ -1,33 +1,31 @@
 import { ShieldCheck } from 'lucide-react'
 
 const commitments = [
-  'No solicitamos ni guardamos tu ClaveÚnica.',
-  'No garantizamos aprobación de beneficios, subsidios o prestaciones.',
-  'No reemplazamos a municipalidades, SERVIU, ChileAtiende, IPS u otros organismos públicos.',
-  'Orientamos, preparamos antecedentes y acompañamos técnicamente.',
-  'Tus datos deben ser tratados solo para la finalidad de la atención solicitada.',
-  'Los casos complejos pueden requerir derivación profesional o institucional.',
+  'Agenda inicial sin RUT, ClaveÚnica ni documentos personales.',
+  'Perfiles profesionales con identidad, alcance y modalidad visibles.',
+  'Sin promesas de aprobación de beneficios, subsidios o prestaciones.',
+  'Derivación responsable cuando el caso requiere otra institución o especialidad.',
 ]
 
 export default function TrustAndEthics() {
   return (
-    <section className="bg-brand-900 py-20 text-white sm:py-24" aria-labelledby="etica-title">
+    <section id="confianza" className="bg-brand-900 py-14 text-white sm:py-16" aria-labelledby="etica-title">
       <div className="section-shell">
-        <div className="grid gap-10 lg:grid-cols-[0.9fr_1.3fr] lg:items-start">
+        <div className="grid gap-8 lg:grid-cols-[0.85fr_1.25fr] lg:items-start">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-trust-50">Confianza y límites éticos</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-trust-50">Confianza</p>
             <h2 id="etica-title" className="mt-3 text-3xl font-bold leading-tight sm:text-4xl">
-              Acompañamiento responsable, claro y sin promesas indebidas
+              Reglas claras antes de escalar la plataforma
             </h2>
-            <p className="mt-5 text-lg leading-8 text-brand-50">
-              La plataforma se construye con foco en orientación profesional, protección de datos y respeto por las
-              instituciones que evalúan cada trámite.
+            <p className="mt-4 text-sm leading-6 text-brand-50">
+              La agenda puede crecer, pero el estándar debe quedar desde el primer día: datos mínimos, consentimiento
+              claro y límites profesionales visibles.
             </p>
           </div>
 
-          <ul className="grid gap-4 md:grid-cols-2">
+          <ul className="grid gap-3 md:grid-cols-2">
             {commitments.map((commitment) => (
-              <li key={commitment} className="flex gap-3 rounded-lg border border-white/15 bg-white/10 p-5">
+              <li key={commitment} className="flex gap-3 rounded-lg border border-white/15 bg-white/10 p-4">
                 <ShieldCheck className="mt-1 h-5 w-5 flex-none text-trust-50" aria-hidden="true" />
                 <span className="text-sm font-semibold leading-6 text-white">{commitment}</span>
               </li>

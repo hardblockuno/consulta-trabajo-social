@@ -3,11 +3,11 @@ import { Menu, MessageCircle, X } from 'lucide-react'
 
 const navItems = [
   { label: 'Inicio', href: '#inicio' },
-  { label: 'Servicios', href: '#servicios' },
+  { label: 'Profesionales', href: '#profesionales' },
+  { label: 'Atenciones', href: '#servicios' },
   { label: 'Cómo funciona', href: '#como-funciona' },
-  { label: 'Precios', href: '#precios' },
-  { label: 'Preguntas frecuentes', href: '#faq' },
-  { label: 'Contacto', href: '#contacto' },
+  { label: 'Agenda', href: '#precios' },
+  { label: 'Confianza', href: '#confianza' },
 ]
 
 export default function Header() {
@@ -22,7 +22,7 @@ export default function Header() {
           </span>
           <span className="text-sm font-black uppercase leading-tight text-brand-900 sm:text-base">
             CONSULTA
-            <span className="block text-brand-700">TRABAJO SOCIAL</span>
+            <span className="block text-brand-700">SOCIAL</span>
           </span>
         </a>
 
@@ -43,7 +43,7 @@ export default function Header() {
           className="focus-ring hidden items-center gap-2 rounded-md bg-brand-700 px-4 py-3 text-sm font-bold text-white shadow-soft transition hover:bg-brand-900 lg:inline-flex"
         >
           <MessageCircle className="h-4 w-4" aria-hidden="true" />
-          Solicitar orientación
+          Agendar piloto
         </a>
 
         <button
@@ -77,7 +77,7 @@ export default function Header() {
               onClick={() => setOpen(false)}
             >
               <MessageCircle className="h-4 w-4" aria-hidden="true" />
-              Solicitar orientación
+              Agendar piloto
             </a>
           </div>
         </div>

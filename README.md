@@ -1,15 +1,16 @@
-# CONSULTA TRABAJO SOCIAL
+# CONSULTA SOCIAL
 
-MVP web para una plataforma chilena de orientación profesional en trámites sociales y Trabajo Social.
+MVP web para una plataforma chilena de atención, perfiles profesionales y agendamiento en el área social.
 
 ## Descripción
 
-CONSULTA TRABAJO SOCIAL orienta a personas, familias, comités de vivienda y organizaciones comunitarias para comprender rutas de postulación, preparar documentos y tomar decisiones informadas. La plataforma no promete beneficios estatales ni reemplaza a municipalidades, SERVIU, ChileAtiende, IPS u otros organismos públicos.
+CONSULTA SOCIAL busca conectar a personas, familias, comités de vivienda y organizaciones con profesionales del área social. La plataforma permite visualizar especialidades, disponibilidad y modalidades de atención, sin prometer beneficios estatales ni reemplazar a municipalidades, SERVIU, ChileAtiende, IPS u otros organismos públicos.
 
 ## Objetivo del MVP
 
-- Presentar la propuesta de valor de forma clara, profesional y confiable.
-- Explicar servicios, límites éticos y precios referenciales.
+- Presentar una experiencia minimalista de búsqueda y agenda.
+- Mostrar perfiles o categorías profesionales piloto.
+- Explicar servicios, límites éticos y valores referenciales con poco texto.
 - Incluir CTA a WhatsApp con número placeholder.
 - Dejar el proyecto listo para deploy automático en GitHub Pages.
 
@@ -61,16 +62,17 @@ base: '/consulta-trabajo-social/'
 
 ### Fase 1
 
-- Landing page.
-- Servicios.
-- Precios referenciales.
+- Home con buscador de atención.
+- Perfiles profesionales piloto.
+- Servicios compactos.
+- Modalidades y valores referenciales.
 - CTA WhatsApp.
-- FAQ ética.
 
 ### Fase 2
 
-- Formulario externo seguro con Tally, Typeform o Google Forms.
-- Página de diagnóstico inicial.
+- Motor de agenda real.
+- Onboarding de profesionales.
+- Página pública por perfil.
 - Página específica de RSH.
 - Página específica de vivienda y comités.
 

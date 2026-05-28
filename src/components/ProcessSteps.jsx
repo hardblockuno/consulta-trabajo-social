@@ -1,27 +1,22 @@
 import { ArrowRight } from 'lucide-react'
 
 const steps = [
-  'Nos cuentas tu situación',
-  'Revisamos el tipo de trámite o necesidad',
-  'Te entregamos una ruta social inicial',
-  'Preparamos checklist o documentos orientativos',
-  'Te acompañamos o derivamos según corresponda',
+  'Elige especialidad',
+  'Revisa perfil y cupos',
+  'Agenda una primera atención',
+  'Recibe ruta o derivación',
 ]
 
 export default function ProcessSteps() {
   return (
-    <section id="como-funciona" className="bg-white py-20 sm:py-24">
+    <section id="como-funciona" className="bg-white py-14 sm:py-16">
       <div className="section-shell">
-        <div className="max-w-3xl">
+        <div className="max-w-2xl">
           <p className="eyebrow">Cómo funciona</p>
-          <h2 className="section-title mt-3">Un proceso simple para pasar de la duda a una ruta de acción</h2>
-          <p className="mt-5 text-lg leading-8 text-slate-600">
-            El acompañamiento prioriza claridad, documentación y derivación responsable cuando una situación requiere
-            apoyo institucional o profesional especializado.
-          </p>
+          <h2 className="section-title mt-3">De la búsqueda a la agenda en cuatro pasos</h2>
         </div>
 
-        <ol className="mt-12 grid gap-4 lg:grid-cols-5">
+        <ol className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {steps.map((step, index) => (
             <li key={step} className="relative rounded-lg border border-slate-200 bg-slate-50 p-5">
               <div className="flex items-center justify-between gap-3">
@@ -32,7 +27,7 @@ export default function ProcessSteps() {
                   <ArrowRight className="hidden h-5 w-5 text-brand-500 lg:block" aria-hidden="true" />
                 )}
               </div>
-              <p className="mt-6 text-base font-bold leading-6 text-slate-950">{step}</p>
+              <p className="mt-6 text-base font-black leading-6 text-slate-950">{step}</p>
             </li>
           ))}
         </ol>

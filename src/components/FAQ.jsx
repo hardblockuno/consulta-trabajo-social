@@ -3,11 +3,11 @@ import { faqs } from '../data/faqs.js'
 
 export default function FAQ() {
   return (
-    <section id="faq" className="bg-white py-20 sm:py-24">
+    <section id="faq" className="bg-white py-14 sm:py-16">
       <div className="section-shell max-w-5xl">
-        <div className="max-w-3xl">
+        <div className="max-w-2xl">
           <p className="eyebrow">Preguntas frecuentes</p>
-          <h2 className="section-title mt-3">Dudas comunes antes de solicitar orientación</h2>
+          <h2 className="section-title mt-3">Lo básico antes de agendar</h2>
         </div>
 
         <div className="mt-10 divide-y divide-slate-200 rounded-lg border border-slate-200 bg-white">

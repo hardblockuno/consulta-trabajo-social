@@ -1,5 +1,6 @@
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
+import ProfessionalDirectory from './components/ProfessionalDirectory.jsx'
 import Services from './components/Services.jsx'
 import ProcessSteps from './components/ProcessSteps.jsx'
 import Pricing from './components/Pricing.jsx'
@@ -14,6 +15,7 @@ export default function App() {
       <Header />
       <main>
         <Hero />
+        <ProfessionalDirectory />
         <Services />
         <ProcessSteps />
         <Pricing />

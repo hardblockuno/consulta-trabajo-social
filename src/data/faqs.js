@@ -1,37 +1,22 @@
 export const faqs = [
   {
-    question: '¿Ustedes hacen el trámite por mí?',
+    question: '¿Ya se puede reservar una hora desde la web?',
     answer:
-      'Podemos orientar, preparar antecedentes y acompañar técnicamente. La gestión final puede depender del canal oficial, de la institución competente y de las autorizaciones que correspondan.',
+      'Esta versión muestra el flujo de agenda y perfiles. La reserva real se coordina por WhatsApp mientras se implementa el motor de disponibilidad.',
   },
   {
-    question: '¿Pueden asegurar que me entreguen un beneficio?',
+    question: '¿La plataforma reemplaza a instituciones públicas?',
     answer:
-      'No. Ningún servicio de esta plataforma garantiza aprobación de beneficios, subsidios o prestaciones. Las decisiones dependen de requisitos, evaluación institucional y normativa vigente.',
+      'No. La plataforma orienta y ordena la ruta. Las decisiones dependen de los organismos competentes y de los requisitos vigentes.',
   },
   {
-    question: '¿Necesito compartir mi ClaveÚnica?',
+    question: '¿Necesito compartir RUT o ClaveÚnica?',
     answer:
-      'No. No solicitamos ni guardamos ClaveÚnica. Si un trámite requiere acceso personal, te orientamos para que lo realices directamente en canales oficiales.',
+      'No en la agenda inicial. No se solicita ni almacena ClaveÚnica. Cualquier antecedente sensible requiere un proceso seguro y consentimiento claro.',
   },
   {
-    question: '¿Qué pasa si mi caso requiere informe social?',
+    question: '¿Cómo se sumarán profesionales?',
     answer:
-      'Se evalúa la finalidad, antecedentes disponibles y pertinencia profesional. Si corresponde, se acuerda el alcance del informe y si requiere entrevista, visita domiciliaria u otros respaldos.',
-  },
-  {
-    question: '¿Atienden solo online o también presencial?',
-    answer:
-      'El MVP considera orientación digital. La atención presencial puede evaluarse según comuna, disponibilidad profesional, seguridad y necesidad técnica del caso.',
-  },
-  {
-    question: '¿Trabajan con comités de vivienda?',
-    answer:
-      'Sí. Podemos orientar a comités en organización documental, rutas habitacionales, preparación de consultas y coordinación de información para avanzar con mayor claridad.',
-  },
-  {
-    question: '¿Los informes sociales siempre son aceptados por instituciones?',
-    answer:
-      'No siempre. Cada institución define sus requisitos, formatos y criterios de admisión. El informe puede prepararse con estándar profesional, pero su aceptación depende de terceros.',
+      'El piloto debe validar identidad, experiencia, disponibilidad, modalidad de atención y alcance declarado antes de publicar perfiles.',
   },
 ]
