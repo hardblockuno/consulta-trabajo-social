@@ -67,7 +67,9 @@ export default function Hero() {
               >
                 <span>
                   <span className="block font-black text-slate-950">{professional.name}</span>
-                  <span className="mt-1 block text-sm font-semibold text-slate-600">{professional.focus}</span>
+                  <span className="mt-1 block text-sm font-semibold text-slate-600">
+                    {professional.specialties.slice(0, 3).join(' - ')}
+                  </span>
                 </span>
                 <span className="shrink-0 rounded-md bg-white px-3 py-2 text-sm font-black text-brand-700">
                   {professional.nextSlots[0]}
