@@ -25,7 +25,7 @@ export default function TrustAndEthics() {
 
           <ul className="grid gap-3 md:grid-cols-2">
             {commitments.map((commitment) => (
-              <li key={commitment} className="flex gap-3 rounded-lg border border-white/15 bg-white/10 p-4">
+              <li key={commitment} className="flex gap-3 rounded-lg border border-white/20 bg-white/10 p-4">
                 <ShieldCheck className="mt-1 h-5 w-5 flex-none text-trust-50" aria-hidden="true" />
                 <span className="text-sm font-semibold leading-6 text-white">{commitment}</span>
               </li>
