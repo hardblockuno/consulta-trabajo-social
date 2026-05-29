@@ -9,18 +9,14 @@ const commitments = [
 
 export default function TrustAndEthics() {
   return (
-    <section id="confianza" className="bg-brand-900 py-14 text-white sm:py-16" aria-labelledby="etica-title">
+    <section id="confianza" className="bg-brand-900 py-12 text-white sm:py-14" aria-labelledby="etica-title">
       <div className="section-shell">
         <div className="grid gap-8 lg:grid-cols-[0.85fr_1.25fr] lg:items-start">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-trust-50">Confianza</p>
             <h2 id="etica-title" className="mt-3 text-3xl font-bold leading-tight sm:text-4xl">
-              Reglas claras antes de escalar la plataforma
+              Reserva simple, límites claros
             </h2>
-            <p className="mt-4 text-sm leading-6 text-brand-50">
-              La agenda puede crecer, pero el estándar debe quedar desde el primer día: datos mínimos, consentimiento
-              claro y límites profesionales visibles.
-            </p>
           </div>
 
           <ul className="grid gap-3 md:grid-cols-2">
