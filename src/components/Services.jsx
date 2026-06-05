@@ -3,7 +3,7 @@ import ServiceCard from './ServiceCard.jsx'
 
 export default function Services() {
   return (
-    <section id="servicios" className="bg-white py-14 sm:py-16">
+    <section id="servicios" className="bg-stone-50 py-14 sm:py-16">
       <div className="section-shell">
         <div className="grid gap-5 lg:grid-cols-[0.82fr_1.1fr] lg:items-end">
           <div>

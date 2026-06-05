@@ -24,17 +24,17 @@ export default function ServiceCard({ service }) {
   const Icon = icons[service.icon] ?? FileText
 
   return (
-    <article className="flex min-h-full flex-col rounded-lg border border-slate-200 bg-slate-50 p-5 transition hover:border-brand-500 hover:bg-white">
-      <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-md bg-brand-50 text-brand-700">
+    <article className="flex min-h-full flex-col rounded-lg border border-stone-200 bg-white p-5 transition hover:border-brand-500 hover:shadow-soft">
+      <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-md bg-civic-50 text-brand-700">
         <Icon className="h-5 w-5" aria-hidden="true" />
       </div>
       <h3 className="text-lg font-black text-slate-950">{service.title}</h3>
       <p className="mt-3 text-sm leading-6 text-slate-600">{service.description}</p>
-      <div className="mt-5 border-t border-slate-200 pt-4">
+      <div className="mt-5 border-t border-stone-200 pt-4">
         <p className="text-xs font-black uppercase tracking-[0.12em] text-brand-700">Entregables</p>
         <div className="mt-3 flex flex-wrap gap-2">
           {service.deliverables.map((item) => (
-            <span key={item} className="rounded-md bg-white px-3 py-2 text-xs font-bold text-slate-700">
+            <span key={item} className="rounded-md bg-stone-50 px-3 py-2 text-xs font-bold text-slate-700">
               {item}
             </span>
           ))}

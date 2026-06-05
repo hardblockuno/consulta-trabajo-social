@@ -13,10 +13,10 @@ export default function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/30 bg-white/90 backdrop-blur-xl">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-stone-200 bg-stone-50/95 backdrop-blur-xl">
       <nav className="section-shell flex min-h-20 items-center justify-between gap-4" aria-label="Principal">
         <a href="#inicio" className="focus-ring flex items-center gap-3 rounded-md">
-          <span className="grid h-11 w-11 place-items-center rounded-md bg-brand-700 text-base font-black text-white shadow-soft">
+          <span className="grid h-11 w-11 place-items-center rounded-md bg-brand-900 text-base font-black text-white shadow-soft">
             CTS
           </span>
           <span className="text-sm font-black uppercase leading-tight text-brand-900 sm:text-base">
@@ -39,7 +39,7 @@ export default function Header() {
 
         <a
           href="#contacto"
-          className="focus-ring hidden items-center gap-2 rounded-md bg-brand-700 px-4 py-3 text-sm font-bold text-white shadow-soft transition hover:bg-brand-900 lg:inline-flex"
+          className="focus-ring hidden items-center gap-2 rounded-md bg-brand-900 px-4 py-3 text-sm font-bold text-white shadow-soft transition hover:bg-brand-700 lg:inline-flex"
         >
           <MessageCircle className="h-4 w-4" aria-hidden="true" />
           Solicitar propuesta
@@ -72,7 +72,7 @@ export default function Header() {
             ))}
             <a
               href="#contacto"
-              className="focus-ring mt-2 inline-flex items-center justify-center gap-2 rounded-md bg-brand-700 px-4 py-3 text-sm font-bold text-white"
+              className="focus-ring mt-2 inline-flex items-center justify-center gap-2 rounded-md bg-brand-900 px-4 py-3 text-sm font-bold text-white"
               onClick={() => setOpen(false)}
             >
               <MessageCircle className="h-4 w-4" aria-hidden="true" />

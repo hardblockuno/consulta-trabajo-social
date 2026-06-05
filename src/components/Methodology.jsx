@@ -23,7 +23,7 @@ const steps = [
 
 export default function Methodology() {
   return (
-    <section id="metodologia" className="bg-slate-50 py-14 sm:py-16">
+    <section id="metodologia" className="bg-white py-14 sm:py-16">
       <div className="section-shell">
         <div className="max-w-2xl">
           <p className="eyebrow">Metodología</p>
@@ -32,8 +32,8 @@ export default function Methodology() {
 
         <ol className="mt-8 grid gap-3 md:grid-cols-5">
           {steps.map((step, index) => (
-            <li key={step.title} className="rounded-lg border border-slate-200 bg-white p-4">
-              <span className="grid h-9 w-9 place-items-center rounded-md bg-brand-700 text-sm font-black text-white">
+            <li key={step.title} className="rounded-lg border border-stone-200 bg-stone-50 p-4">
+              <span className="grid h-9 w-9 place-items-center rounded-md bg-brand-900 text-sm font-black text-white">
                 {index + 1}
               </span>
               <h3 className="mt-5 text-base font-black text-slate-950">{step.title}</h3>

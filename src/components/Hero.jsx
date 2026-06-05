@@ -1,5 +1,5 @@
 import { ArrowRight, Map, ShieldCheck } from 'lucide-react'
-import heroImage from '../assets/hero-agenda-social.png'
+import heroImage from '../assets/hero-consultoria-territorial.webp'
 
 const heroCapabilities = [
   'Diagnóstico social-territorial',
@@ -12,10 +12,10 @@ export default function Hero() {
     <section id="inicio" className="relative isolate overflow-hidden pt-20">
       <div className="absolute inset-0 -z-10">
         <img src={heroImage} alt="" className="h-full w-full object-cover object-center" loading="eager" />
-        <div className="absolute inset-0 bg-brand-900/30" />
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-900/95 via-brand-900/75 to-brand-900/10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-900/60 via-transparent to-white/5" />
-        <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-slate-50 to-transparent" />
+        <div className="absolute inset-0 bg-brand-900/25" />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-900/95 via-brand-900/72 to-brand-900/10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-900/55 via-transparent to-stone-50/5" />
+        <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-stone-50 to-transparent" />
       </div>
 
       <div className="section-shell grid min-h-[68svh] items-center gap-8 py-8 sm:py-12 lg:grid-cols-[1fr_0.78fr]">
@@ -57,9 +57,9 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="rounded-lg border border-white/25 bg-white p-5 shadow-soft">
+        <div className="rounded-lg border border-white/20 bg-stone-50/95 p-5 shadow-soft backdrop-blur">
           <div>
-            <p className="text-sm font-bold text-brand-700">Qué hacemos</p>
+            <p className="text-sm font-bold text-trust-700">Qué hacemos</p>
             <h2 className="mt-1 text-2xl font-black text-slate-950">Soluciones para gestionar procesos sociales</h2>
           </div>
 
@@ -68,7 +68,7 @@ export default function Hero() {
               <a
                 key={capability}
                 href="#servicios"
-                className="focus-ring flex items-center justify-between gap-4 rounded-md border border-slate-200 bg-slate-50 p-4 transition hover:border-brand-500 hover:bg-brand-50"
+                className="focus-ring flex items-center justify-between gap-4 rounded-md border border-stone-200 bg-white p-4 transition hover:border-brand-500 hover:bg-brand-50"
               >
                 <span className="font-black text-slate-950">{capability}</span>
                 <span className="shrink-0 text-brand-700">
@@ -79,7 +79,7 @@ export default function Hero() {
 
             <a
               href="#contacto"
-              className="focus-ring inline-flex items-center justify-center gap-2 rounded-md bg-brand-700 px-5 py-4 text-base font-bold text-white transition hover:bg-brand-900"
+              className="focus-ring inline-flex items-center justify-center gap-2 rounded-md bg-brand-900 px-5 py-4 text-base font-bold text-white transition hover:bg-brand-700"
             >
               Solicitar propuesta
               <ArrowRight className="h-5 w-5" aria-hidden="true" />

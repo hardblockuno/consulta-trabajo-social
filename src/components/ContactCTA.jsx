@@ -4,9 +4,9 @@ const whatsappUrl = 'https://wa.me/56900000000'
 
 export default function ContactCTA() {
   return (
-    <section id="contacto" className="bg-slate-50 py-12 sm:py-14">
+    <section id="contacto" className="bg-stone-50 py-12 sm:py-14">
       <div className="section-shell">
-        <div className="grid gap-6 rounded-lg border border-slate-200 bg-white p-6 shadow-soft sm:p-8 lg:grid-cols-[1fr_auto] lg:items-center">
+        <div className="grid gap-6 rounded-lg border border-stone-200 bg-white p-6 shadow-soft sm:p-8 lg:grid-cols-[1fr_auto] lg:items-center">
           <div>
             <h2 className="text-3xl font-bold leading-tight text-slate-950 sm:text-4xl">
               Hablemos de un proyecto social o territorial
