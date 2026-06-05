@@ -2,9 +2,9 @@ import { ShieldCheck } from 'lucide-react'
 
 const commitments = [
   'Agenda inicial sin RUT, ClaveÚnica ni documentos personales.',
-  'Perfiles profesionales con identidad, alcance y modalidad visibles.',
+  'Servicios con alcance, entregables y públicos visibles.',
   'Sin promesas de aprobación de beneficios, subsidios o prestaciones.',
-  'Derivación responsable cuando el caso requiere otra institución o especialidad.',
+  'Derivación responsable cuando el caso requiere otra institución, disciplina o especialidad.',
 ]
 
 export default function TrustAndEthics() {
@@ -15,7 +15,7 @@ export default function TrustAndEthics() {
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-trust-50">Confianza</p>
             <h2 id="etica-title" className="mt-3 text-3xl font-bold leading-tight sm:text-4xl">
-              Reserva simple, límites claros
+              Consultoría responsable, límites claros
             </h2>
           </div>
 

@@ -9,8 +9,11 @@ export default function ContactCTA() {
         <div className="grid gap-6 rounded-lg border border-slate-200 bg-white p-6 shadow-soft sm:p-8 lg:grid-cols-[1fr_auto] lg:items-center">
           <div>
             <h2 className="text-3xl font-bold leading-tight text-slate-950 sm:text-4xl">
-              ¿Quieres aparecer en la agenda?
+              Hablemos de un proyecto social o territorial
             </h2>
+            <p className="mt-3 text-sm leading-6 text-slate-600">
+              Diagnósticos, talleres, acompañamiento comunitario, formación o agenda profesional.
+            </p>
           </div>
 
           <div className="flex flex-col gap-3">
@@ -21,7 +24,7 @@ export default function ContactCTA() {
               className="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-md bg-trust-500 px-5 py-4 text-base font-bold text-white transition hover:bg-trust-700 sm:w-auto"
             >
               <MessageCircle className="h-5 w-5" aria-hidden="true" />
-              Soy profesional
+              Solicitar propuesta
             </a>
             <p className="text-sm leading-6 text-slate-600">
               WhatsApp demo pendiente de configurar con el número oficial del proyecto.

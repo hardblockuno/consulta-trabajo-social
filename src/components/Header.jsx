@@ -3,8 +3,9 @@ import { Menu, MessageCircle, X } from 'lucide-react'
 
 const navItems = [
   { label: 'Inicio', href: '#inicio' },
-  { label: 'Reservar', href: '#reserva' },
-  { label: 'Atenciones', href: '#servicios' },
+  { label: 'Soluciones', href: '#servicios' },
+  { label: 'Metodología', href: '#metodologia' },
+  { label: 'Agenda Social', href: '#reserva' },
   { label: 'Confianza', href: '#confianza' },
 ]
 
@@ -37,11 +38,11 @@ export default function Header() {
         </div>
 
         <a
-          href="#reserva"
+          href="#contacto"
           className="focus-ring hidden items-center gap-2 rounded-md bg-brand-700 px-4 py-3 text-sm font-bold text-white shadow-soft transition hover:bg-brand-900 lg:inline-flex"
         >
           <MessageCircle className="h-4 w-4" aria-hidden="true" />
-          Reservar hora
+          Solicitar propuesta
         </a>
 
         <button
@@ -70,12 +71,12 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="#reserva"
+              href="#contacto"
               className="focus-ring mt-2 inline-flex items-center justify-center gap-2 rounded-md bg-brand-700 px-4 py-3 text-sm font-bold text-white"
               onClick={() => setOpen(false)}
             >
               <MessageCircle className="h-4 w-4" aria-hidden="true" />
-              Reservar hora
+              Solicitar propuesta
             </a>
           </div>
         </div>

@@ -14,12 +14,15 @@ function buildRoleLine(professional) {
 
 export default function BookingSection() {
   return (
-    <section id="reserva" className="bg-slate-50 py-12 sm:py-14">
+    <section id="reserva" className="bg-white py-14 sm:py-16">
       <div className="section-shell">
         <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
             <p className="eyebrow">Reservar hora</p>
-            <h2 className="section-title mt-3">Elige profesional y horario</h2>
+            <h2 className="section-title mt-3">Agenda Social</h2>
+            <p className="mt-4 text-sm leading-6 text-slate-600">
+              Atención directa para personas, familias y organizaciones que necesitan orientación inicial.
+            </p>
           </div>
           <div className="flex flex-wrap gap-2">
             {bookingServices.map((service) => (

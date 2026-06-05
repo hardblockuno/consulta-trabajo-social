@@ -1,35 +1,48 @@
 import {
-  Building2,
+  BarChart3,
   FileText,
-  HeartHandshake,
-  Home,
-  Presentation,
+  GraduationCap,
+  Handshake,
+  Landmark,
+  Map,
+  MessagesSquare,
+  Users,
 } from 'lucide-react'
 
 const icons = {
-  Building2,
+  BarChart3,
   FileText,
-  HeartHandshake,
-  Home,
-  Presentation,
+  GraduationCap,
+  Handshake,
+  Landmark,
+  Map,
+  MessagesSquare,
+  Users,
 }
 
 export default function ServiceCard({ service }) {
   const Icon = icons[service.icon] ?? FileText
 
   return (
-    <article className="rounded-lg border border-slate-200 bg-slate-50 p-4 transition hover:border-brand-500 hover:bg-white">
-      <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-md bg-brand-50 text-brand-700">
-        <Icon className="h-6 w-6" aria-hidden="true" />
+    <article className="flex min-h-full flex-col rounded-lg border border-slate-200 bg-slate-50 p-5 transition hover:border-brand-500 hover:bg-white">
+      <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-md bg-brand-50 text-brand-700">
+        <Icon className="h-5 w-5" aria-hidden="true" />
       </div>
       <h3 className="text-lg font-black text-slate-950">{service.title}</h3>
       <p className="mt-3 text-sm leading-6 text-slate-600">{service.description}</p>
-      <div className="mt-5 flex flex-wrap gap-2">
-        {service.tags.map((tag) => (
-          <span key={tag} className="rounded-md bg-white px-3 py-2 text-xs font-bold text-slate-700">
-            {tag}
-          </span>
-        ))}
+      <div className="mt-5 border-t border-slate-200 pt-4">
+        <p className="text-xs font-black uppercase tracking-[0.12em] text-brand-700">Entregables</p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {service.deliverables.map((item) => (
+            <span key={item} className="rounded-md bg-white px-3 py-2 text-xs font-bold text-slate-700">
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
+      <div className="mt-4">
+        <p className="text-xs font-black uppercase tracking-[0.12em] text-slate-500">Para</p>
+        <p className="mt-2 text-sm font-semibold leading-6 text-slate-700">{service.audiences.join(' / ')}</p>
       </div>
     </article>
   )
